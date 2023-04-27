@@ -1,0 +1,48 @@
+/*SELECTORES
+
+selector {
+    propiedad:valor
+}*/
+
+/*UNIVERSAL
+*{
+    color:red;
+}*/
+
+/*DE TIPO
+h1{
+    color:red;
+}
+*/
+
+/*CLASE
+.titulo-h2{
+    color:red;
+}
+*/
+
+/*ID
+#elemento{
+    color:red;
+}*/
+
+/*DESCENDIENTE
+h2 p{
+    color:red;
+}   */
+
+/*SEUDO CLASE
+h2:hover{
+    color:red;
+}   */
+
+
+/*
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}*/
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: blue;
+}

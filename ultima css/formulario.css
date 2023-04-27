@@ -1,0 +1,310 @@
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+height: 100%; 
+font-family: 'Noto Sans', sans-serif;
+  background-color: #282828; 
+}
+
+
+.contact_form{
+width: 460px; 
+  height: auto;
+  margin: 80px auto;
+border-radius: 10px;  
+padding-top: 30px;
+padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+background-color: #fbfbfb; 
+width: 408px; 
+height: 40px; 
+border-radius: 5px;  
+border-style: solid; 
+border-width: 1px; 
+border-color: #282828; 
+margin-top: 10px;  
+padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+width: 405px; 
+height: 150px; 
+border-radius: 5px;  
+border-style: solid; 
+border-width: 1px; 
+border-color: #282828; 
+margin-top: 10px;  
+padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+float: center; 
+}
+
+
+button{
+height: 45px; 
+padding-left: 5px;
+padding-right: 5px; 
+margin-bottom: 20px; 
+margin-top: 10px; 
+text-transform: uppercase;
+background-color: #282828; 
+border-color: #282828; 
+border-style: solid; 
+border-radius: 10px;
+width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+color: #fff; 
+}
+
+
+span{
+color: #282828; 
+}
+
+
+.aviso{
+font-size: 13px;  
+color: #0e0e0e;  
+}
+
+
+h1{
+font-size: 39px;  
+text-align: letf; 
+padding-bottom: 20px; 
+color: #282828;
+}
+
+
+h3{
+font-size: 16px; 
+padding-bottom: 30px;
+color: #0e0e0e;   
+}
+
+
+p{
+font-size: 14px; 
+color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+outline:0;
+border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+outline:0;
+border: 1px solid #97d848;
+}
+
+
+
+.owl-home-services {
+                                    display: flex;
+                                    flex-flow: row wrap;
+                                    justify-content: center;
+                                }
+
+                                .owl-home-services .service-item {
+                                    cursor: pointer;
+                                    display: inline-block;
+                                    width: 250px;
+                                    background-color: #fff;
+                                    box-shadow: 0px 0px 4px rgba(7, 7, 7, 0.16), 0px 12px 12px -8px rgba(7, 7, 7, 0.16);
+                                    border-radius: 8px;
+                                    margin: 16px 1px;
+                                    height: calc(100% - 40px);
+                                    padding: 24px;
+                                    box-sizing: border-box;
+                                }
+
+                                .owl-home-services .service-item img {
+                                    padding: 0;
+                                    position: relative;
+                                }
+
+                                .owl-home-services .service-item .image {
+                                    position: relative;
+                                    display: table;
+                                    margin: 0 auto 24px auto;
+                                }
+
+                                .owl-home-services .service-item h3 a,
+                                .owl-home-services .service-item h3 a:visited {
+                                    color: #0F265C;
+                                    font-weight: bold;
+                                    font-family: 'Prelo';
+                                    font-size: 16px;
+                                }
+
+                                .owl-home-services .service-item p a,
+                                .owl-home-services .service-item p a:visited {
+                                    color: #2F7ABF;
+                                    text-decoration: none;
+                                }
+
+                                .home-services>div a:hover,
+                                .owl-home-services .service-item p a:hover {
+                                    text-decoration: underline;
+                                    font-weight: normal;
+                                }
+
+                                .owl-home-services .owl-stage {
+                                    display: flex;
+                                }
+
+                                .owl-home-services.owl-theme .owl-nav {
+                                    position: absolute;
+                                    top: 45%;
+                                    margin: 0;
+                                    transform: translateY(-50%);
+                                }
+
+                                .owl-home-services.owl-carousel .owl-nav button.owl-prev {
+                                    position: absolute;
+                                    left: -37px;
+                                    color: #0F265C;
+                                    font-size: 28px;
+                                }
+
+                                .owl-home-services.owl-carousel .owl-nav button.owl-prev span {
+                                    display: none;
+                                }
+
+                                .owl-home-services.owl-carousel .owl-nav button.owl-prev::before {
+                                    content: "\f104";
+                                    font-family: 'FontAwesome';
+                                    color: #929292;
+                                }
+
+                                .owl-home-services.owl-carousel .owl-nav button.owl-next {
+                                    position: absolute;
+                                    right: -37px;
+                                    color: #0F265C;
+                                    font-size: 28px;
+                                }
+
+                                .owl-home-services.owl-carousel .owl-nav button.owl-next span {
+                                    display: none;
+                                }
+
+                                .owl-home-services.owl-carousel .owl-nav button.owl-next::before {
+                                    content: "\f105";
+                                    font-family: 'FontAwesome';
+                                    color: #929292;
+                                }
+
+                                .owl-home-services.owl-theme .owl-nav {
+                                    width: 100%;
+                                    height: 24px;
+                                }
+
+                                .owl-home-services.owl-theme .owl-dots {
+                                    margin-top: 10px;
+                                }
+
+                                .owl-theme .owl-dots .owl-dot.active span,
+                                .owl-theme .owl-dots .owl-dot:hover span {
+                                    background-color: #FFDD00 !important;
+                                }
+
+                                .owl-theme .owl-nav [class*='owl-']:hover {
+                                    background-color: transparent !important;
+                                }
+
+                                .owl-carousel .owl-item img {
+                                    width: auto;
+                                }
+
+                                h2 {
+                                    margin-top: 24px;
+                                    margin-bottom: 8px;
+                                }
+
+                                #h2-soluciones {
+                                    margin-top: 48px;
+                                }
+
+                                p {
+                                    margin-bottom: 8px;
+                                }
+
+                                .owl-home-services .owl-stage-outer {
+                                    margin-bottom: 8px;
+                                }
+
+                                .service-item:hover>p a,
+                                .service-item:active>p a {
+                                    text-decoration: underline;
+                                    font-weight: normal;
+                                }
+
+                                .service-item {
+                                    transition: transform 0.5s;
+                                }
+
+                                .service-item:hover {
+                                    transform: scale(1.08);
+                                    box-shadow: 0px 0px 4px rgba(7, 7, 7, 0.16), 0px 20px 20px -8px rgba(7, 7, 7, 0.16);
+                                }
+
+                                .service-item:focus-within {
+                                    border: 2px solid #2F7ABF;
+                                    box-shadow: 0px 0px 4px rgba(7, 7, 7, 0.16), 0px 12px 12px -8px rgba(7, 7, 7, 0.16);
+                                }
+
+                                @media all and (max-width: 1170px) {
+                                    .home-services-carousel .boxes-container {
+                                        padding: 0 30px;
+                                        box-sizing: border-box;
+                                    }
+
+                                    .owl-home-services.owl-carousel .owl-nav button.owl-prev {
+                                        left: -27px;
+                                    }
+
+                                    .owl-home-services.owl-carousel .owl-nav button.owl-next {
+                                        right: -27px
+                                    }
+                                }
+
+                                @media all and (max-width: 768px) {}
+
+                                @media all and (max-width: 640px) {
+                                    .owl-theme .owl-nav {
+                                        display: none;
+                                    }
+                                }
